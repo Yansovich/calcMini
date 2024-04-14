@@ -78,17 +78,3 @@ function formatUserName(str){
 }
 
 console.log(formatUserName('djdddjAAAFFDHJH'))
-
-// задача
-
-
-const firstNumInput = document.querySelector('.first-num');
-const user = document.querySelector ('.btn btn-name');
-
-const userName = ''
-
-user.addEventListener('click', function(e) {
-
-    userName = e.target.value;
-  });
-  
